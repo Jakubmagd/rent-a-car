@@ -7,7 +7,9 @@ using System.Threading.Tasks;
 namespace RentACar.Models
 {
     public class CarType
+        
     {
+        public CarType() { }
         public int CarTypeId { get; set; }
         public string Name { get; set; }
 
